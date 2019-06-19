@@ -1,0 +1,714 @@
+body
+{
+  
+   font-family: 'Open Sans', sans-serif; 
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clr
+{
+  clear: both;  
+}
+
+.nav
+{
+    position: fixed;
+    width:95%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+}
+.nav ul
+{
+    list-style: none;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.nav ul li
+{
+    
+    float: right;
+    padding: 12px;
+    display: inline-block;
+     
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    color: white; 
+    display: block;
+    margin-top: 20px; 
+}
+
+.nav .logo
+{
+    float: left;
+}
+
+.nav .logo img
+{
+    width: 50%;   
+}
+
+.nav .btn1
+{
+    width: 100%;
+    background:white;
+    color: #121212;
+    border-radius: 4%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav .btn1 a
+{
+    color: #686868;;
+    padding: 12px 25px;
+    margin-top: 10px;
+    
+}
+
+.nav .btn1:hover
+{
+   background:#4caf50;
+   color: white;
+}
+
+.test
+{
+    background-image: url(imgs/header-imgs/business-2.jpg);
+    background-size:100% 100%;
+    height: 700px;
+    color: white;
+    text-align: center;
+}
+
+.test1
+{
+   background-color: rgba(0,0,0,0.5);
+   height: 100%;
+}
+
+.test h3
+{
+    padding-top: 200px;
+    font-size: 20px;
+}
+
+.test p
+{
+    font-size: 50;
+    margin-top: 40px;    
+}
+
+.test .btn2
+{
+    background: #4caf50;
+    color: white;
+    font-size: 12;
+    width: 11%;
+    height: 9%;
+    border-radius: 6%;
+    border: none;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.test .btn2:hover
+{
+    background: white;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.solutions
+{
+    background-color: ;
+    padding: 80px ;
+    overflow: auto;
+
+}
+.solutions .clients
+{
+    background-color:;
+    width: 33.333%;
+    text-align: left;
+    float: left;
+    height: 120px;
+     
+}
+
+.solutions .clients img
+{
+    width: 10%;
+    float: left;
+    background-color: ;
+    margin-right: 10px;
+}
+
+.clients h5
+{
+    font-size:18px;
+    float: left; 
+}
+
+.solutions .desc
+{
+    margin-top: 15px;
+    margin-left: 48px;
+    color:#888;
+    font-size: 16px;
+    line-height: 29.76px;
+}
+
+
+.services
+{
+    overflow: auto;
+    background-color:#f8f8f8;
+    padding-left:4% ; 
+    height: 750px;
+   
+    
+    
+    
+}
+
+.services .header
+{
+    background-color: ;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px; 
+    
+}
+
+ .services .hdesc
+{
+    background-color: ;
+    text-align: center;
+    font-size: 20px;
+    color: #888;
+    line-height: 37px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.services .ideas
+{
+    background-color:;
+    width: 30%;
+    float: left;
+    padding-right: 1% ;
+    padding-left: 1%;
+    
+
+}
+
+.ideas img 
+{
+    width: 100%; 
+    
+}
+.services .idea1
+{
+    background-color: white;
+    display: block;
+    line-height: 28.5px;
+}
+    
+
+.services .idea2
+{
+    font-size: 19px;
+    font-weight: normal;
+    padding: 10px;
+}
+.services .ideas a
+{
+    text-decoration: none;
+    color: black;
+}
+.services .idea3
+{
+    color: #888;
+    padding-left: 10px;
+}
+
+.services .btn3
+{
+    padding:8px; 
+}
+.ideas .zero a
+
+{
+    color: #666;
+}
+
+.ideas .zero a:hover
+{
+    background: white;
+    color: green;
+}
+
+.secret
+{
+    overflow: auto;
+    margin-top: 50px;
+}
+
+ .secret .discover
+{
+    
+    width: 50%;
+    float: left;
+    margin-top:100px;
+    margin-left: 5%;
+       
+}
+
+.secret .dicover-header
+{
+    
+ font-size: 30px;
+}
+
+.secret .discover-para
+{
+    font-size: 15px;
+    color: #686868;
+    padding-top: 30px;
+    
+}
+ .secret ul
+{
+   
+     padding-top: 30px;
+     padding-left: 20px;
+    color: #686868;
+}
+
+.secret .discover-btn
+{
+    background: #4caf50;
+    color: white;
+    width: 18%;
+    height: 7%;
+    border: none;
+    border-radius:5%;
+    margin-top:20px; 
+}
+
+.secret .discover-btn:hover
+{
+    background:black;
+    color: white;
+}
+
+.secret .discover-photo
+{
+    width: 40%;
+    margin-top: 20px;
+    float: left;
+ 
+}
+
+.secret .discover-photo img
+{
+    
+    width: 100%;  
+}
+
+.content
+{
+    background-color: #f8f8f8;
+    margin-top: 80px;
+    height: 700px;
+    overflow: auto;
+}
+
+.content .content-img
+{
+    width:5%;
+    margin: auto;
+    
+}
+
+.content-img img
+{
+    width: 100%;
+    padding-top: 150px;
+}
+
+.content .section1
+{
+    background-color:;
+    width: 22%;
+    height: 30%;
+    float: left ;
+    margin-left: 1.5%; 
+    margin-right: 1.5%;
+    margin-top: 60px;
+}
+
+.section1 .fashion-top
+{
+    background-color: white;
+    padding: 30px 20px;
+    line-height: 29.76px;
+    color: #686868;
+}
+
+.content .apple
+{
+    margin-top: 20px;
+    color: #686868;
+    font-size: 15px;
+    padding-left: 25px
+}
+
+.content .google
+{
+    margin-top: 10px;
+    color: #686868;
+    font-size: 15px;
+    padding-left: 25px; 
+}
+
+.likes
+{
+    height: 400px;
+    overflow: auto;
+}
+
+.likes .section2
+{
+    width: 25%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.likes .section2 img
+{
+    width: 20%;
+}
+
+.likes .likes-number
+
+{
+   font-size:52px;
+    color: rgba(0,0,0,.75);
+}
+
+.likes .likes-page
+{
+    font-size:20px;
+    color: rgba(0,0,0,.55);
+}
+
+.section3
+{
+    background-image: url(imgs/additional-value-section/full-2.jpg);
+    background-size:100% 100%;
+    height: 450px;
+    text-align: center;
+}
+
+.section3 .first
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.section3 h2
+{
+    padding-top: 140px;
+    font-size: 30px;
+    font-weight: 400;
+    color:#fff;
+}
+
+.section3 p
+{
+    font-size: 22.5px;
+    margin-top: 18px;
+    color: rgba(255,255,255,.92);
+    line-height:30px;
+}
+
+.section3 .btn2
+{
+    background: #4caf50;
+    color: white;
+    font-size: 12;
+    width: 11%;
+    height: 12%;
+    border-radius: 6%;
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.section3 .btn2:hover
+{
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.other-services
+{
+    overflow: auto;
+    padding-left:4% ; 
+    height: 500px;
+    margin: 80px 10px;
+}
+
+.other-services .header
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    
+}
+
+ .other-services .hdesc
+{
+    text-align: center;
+    font-size: 20px;
+    color: #888;
+    line-height: 37px;
+    padding-top: 20px;
+    padding-bottom:2px; 
+   
+    
+}
+
+.other-services .ideas
+{
+    width: 30%;
+    float: left;
+    padding-right: 1% ;
+    padding-left: 1%;
+    
+}
+
+.other-services .idea1
+{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color:#303030;
+    padding-top: 30px;
+    
+}
+    
+
+.other-services .idea2
+{
+    line-height: 27.9px;
+    color: #686868;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+
+.section4
+{
+    background-color:#f8f8f8; 
+}
+
+.section4 .logos
+{
+    overflow: auto;
+    height: 300px;
+    margin-top: 80px;
+    margin-right:50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.section4 img
+{
+   margin: 75px 25px;
+    width: 14%;   
+}
+
+.section5
+{
+    background-color: #4caf50;;
+    height: 220px;
+    overflow: auto;
+}
+
+.section5 .subtitle
+{
+    width:28%;
+    float: left;
+    width: 30%;
+    margin: 65px 50px;
+}
+
+.subtitle .conv
+{
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.subtitle .change
+{
+    font-size: 20px;
+}
+
+.btn
+{
+    float: right;
+    width: 20%;;
+    margin: 72px 10px;
+ 
+   
+   
+}
+
+.btn .btn1
+{
+    border: none;
+    background: white;
+    color:black;
+    border-radius: 4%;
+    font-weight: bold;
+    height: 30%;
+    width:55%;
+}
+
+.btn .btn1:hover
+{
+    background:black;
+    color: white;
+}
+
+.section6
+{
+    background-color: #1f2021;;
+    overflow: auto;
+    height: 250px;
+}
+
+.section6 .about
+{
+    width: 23%;
+    float: left;
+    height: 80%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.about h4
+{
+    font-size:17px ;
+    font-weight:normal ;
+    color:white;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 18px;
+}
+
+.about .details
+{
+    font-size:14px ;
+    font-weight:normal ;
+    color:#58606b;
+    line-height: 24.06px;
+    padding: 25px 15px;
+}
+
+.about .opening
+{
+    padding: 25px 8px;
+    line-height:30px;
+    font-size: 14px;
+    color:#58606b;
+}
+
+.about ul
+{
+    list-style:none;
+    padding: 25px 8px;
+    line-height:30px;
+    font-size: 14px;
+}
+
+.about ul li a:hover
+{
+    color:#0275d8;
+}
+.about ul li a
+{
+    text-decoration: none;
+    color:#58606b; 
+}
+
+.home
+{
+    
+    height:240px;
+    width:23%;
+    float: right;
+    margin top: 0px;
+    margin-right: 15px;
+    background-image: url(imgs/footer-img/contact-details-map.png);
+    background-size: 100% 100%;
+}
+
+.home h4
+{
+    font-size:17px ;
+    font-weight:normal ;
+    color:white;
+    line-height: 23.46px;
+    padding-top: 20px;
+    padding-left: 18px;
+    
+}
+
+.home ul
+{
+    list-style:none;
+    padding: 25px 8px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+
+.home ul li a
+{
+    text-decoration: none;
+    color:#58606b; 
+}
+
+.home ul li a:hover
+{
+    color:#0275d8; ;
+}
+
+
+
+
+
+
+
